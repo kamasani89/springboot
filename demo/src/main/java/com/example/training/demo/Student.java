@@ -4,6 +4,7 @@ public class Student {
 	private int id;
 	private String name;
 	private int age;
+	private String college;
 	
 	public int getId() {
 		return id;
@@ -26,6 +27,12 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", age=" + age + "]";
+	}
+	public String getCollege() {
+		return college;
+	}
+	public void setCollege(String college) {
+		this.college = college;
 	}
 	
 	
